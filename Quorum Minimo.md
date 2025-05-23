@@ -1,0 +1,5 @@
+# Quorum Minimo
+
+É necessario um quorum minimo para que as decisões sejam validadas, e que sejam tomadas, afinal, se não houver consenso, não há decisão. Um plano de votação cuja uma soma substancial da população não concorda com alguma das opções, não atinge um quorum minimo, e portanto não é validado.
+Se ao longo de um número de votaçãoes a ser definida (por exemplo 3) a população não chega a um consenso quanto aos planos, o corpo tecnico deliberativo precisa ser dissolvido e novas eleições chamadas. O processo é digital então pode ser realizado ao longo de alguns dias, no máximo semanas. O novo corpo tecnico eleito delibera e cria outras opções de voto, se após o mesmo número de votações novamente não houver um quorum minimo, a votação mais perto de um consenso é validada e novas eleições para corpo deliberativo é chamada.
+Esse processo incentiva que concessões sejam feitas entre os diversos ramos do corpo deliberativo e que também a opinião geral do povo seja levada em conta no próprio processo deliberativo.

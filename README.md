@@ -44,9 +44,14 @@ no seu computador e um click no botão de votar.
 - O poder deliberativo de um membro eleito deve ser limitado, e deve ser possivel para o povo demitir um membro do corpo deliberativo tecnico, e ele deve ser obrigado a responder pelo seu trabalho. 
         
 ### Executivo
-- Decisões tomadas pela democracia direta digital devem ser executadas por um corpo executivo, que deve ser escolhido de alguma forma (seja por eleição ou outro meio) e deve ser composto por pessoas que sejam capazes  de executar as decisões tomadas pelo corpo deliberativo tecnico.
+- Decisões tomadas pela democracia direta digital devem ser executadas por um corpo executivo, que deve ser escolhido de alguma por eleição e deve ser composto por pessoas que sejam capazes  de executar as decisões tomadas pelo corpo deliberativo tecnico.
 - O poder executivo deve ser limitado, e deve ser possivel para o povo demitir um membro do corpo executivo, e ele deve ser obrigado a responder pelo seu trabalho.
 
+## O que exatamente está sujeito a votação?
+Todas as decisões legislativas e macroeconomicas devem ser tomadas pela democracia direta digital, e as decisões microeconomicas devem ser tomadas pelos conselhos democráticos. Metas de produção, alocação de recursos precisam ser definidas em planos de longo, médio e curto prazo. Primeiro deliberados entre os multiplos corpos deliberativos tecnicos, e depois votados pela população. Quanto recurso, tanto em termos de insumos quanto mão de obra, precisam ser alocados de acordo com planos pré estabelecidos pelo corpo deliberativo, sujeito a votação final pela população ([com sistemas de recall em caso de quorum minimo não atingido](<Quorum Minimo.md>)) e executados pelo corpo executivo.
+
+### Planos de produção
+O planejamento geral ex-ante que está sujeito a votação é o plano de produção, que define as metas de produção, alocação de recursos e a distribuição de produtos e serviços. Esse plano é deliberado entre os corpos deliberativos tecnicos e depois votado pela população, mas representa planos de alocação mais gerais com prazo estipulado definido (por exemplo 1 ano). Define metas gerais de produção, e deve ser decomposto em planos mais específicos para cada setor da economia, representa por exemplo quais porcentagens de recursos serão alocados para cada setor da economia, e quais serão as metas mais gerais de produção de cada setor. Esses planos gerais precisam ser revistos constantemente pelos dados coletados em tempo real sobre a produção e a demanda, e devem ser ajustados para se adequar aos dados coletados pelo [Sistema Automatizado de Coleta e Computação de Informação](SACCI.md). Essa verificação e ajuste deve ser feito em tempo real, e deve ser feito de forma transparente, desponibilizando os dados para todos os cidadãos. Esse sistema de verificação e ajuste constante é essencial para que o plano de produção seja corrigido constantemente para evitar problemas de superprodução ou de falta de produção, corrigindo o curso da economia de forma racional para evitar problemas de alocação de recursos que causam escassez ou desperdicio de recursos.
 
 
 
