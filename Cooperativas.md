@@ -58,7 +58,7 @@ Cumprimento de metas e janelas; respeito aos limites físicos; rastreabilidade m
 - **Horas embutidas (Hⱼ):** horas diretas + horas indiretas dos insumos (via LM), incluindo a reposição dos meios de produção desgastados.
 - **d (taxa de dedução social):** fração do trabalho total retida para os fundos comuns, conforme Marx (Gotha): ampliação dos meios de produção, fundo de reserva, administração, serviços universais gratuitos (saúde, educação etc.) e sustento de quem não pode trabalhar. É definida pelo plano de produção votado.
 - **FAA (Fator de Ajuste Ambiental):** multiplicador de custo decidido democraticamente para bens de alto impacto ecológico. **Normalizado** (ver abaixo).
-- **mᵢ (multiplicador salarial):** por padrão **1** para todos. Prêmios só para **penosidade** e **escassez temporária** de uma função, decididos democraticamente e revisáveis. Não há prêmio por qualificação: a formação é custeada integralmente pela sociedade (estudo remunerado), então não há custo privado de educação a compensar.
+- **mᵢ (multiplicador de renda):** por padrão **1** para todos. Prêmios só para **penosidade** e **escassez temporária** de uma função, decididos democraticamente e revisáveis. Não há prêmio por qualificação: a formação é custeada integralmente pela sociedade (estudo remunerado), então não há custo privado de educação a compensar.
 
 **Renda (em VT)**
 - Renda bruta do trabalhador i: mᵢ × hᵢ (1 VT por hora, salvo prêmio).
