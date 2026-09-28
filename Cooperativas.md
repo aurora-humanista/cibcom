@@ -50,25 +50,41 @@ Cumprimento de metas e janelas; respeito aos limites físicos; rastreabilidade m
 
 ---
 
-### 3.5.1 Preços e Salários — resumo técnico (MD)
+### 3.5.1 Preços, salários e fechamento contábil — resumo técnico (MD)
 
 **Definições**
-- **VT (vales-trabalho pessoais):** direito individual de consumo; intransferível; não acumulável; destruído no consumo.  
-- **LM (Lista de Materiais):** insumos físicos e coeficientes do item/serviço.  
-- **Horas embutidas:** horas diretas + horas indiretas dos insumos (via LM).  
-- **FAA (Fator de Ajuste Ambiental):** multiplicador decidido democraticamente.
+- **VT (vales-trabalho pessoais):** direito individual de consumo; intransferível; não acumulável; destruído no consumo. Não é dinheiro: não circula.
+- **LM (Lista de Materiais):** insumos físicos e coeficientes do item/serviço.
+- **Horas embutidas (Hⱼ):** horas diretas + horas indiretas dos insumos (via LM), incluindo a reposição dos meios de produção desgastados.
+- **d (taxa de dedução social):** fração do trabalho total retida para os fundos comuns, conforme Marx (Gotha): ampliação dos meios de produção, fundo de reserva, administração, serviços universais gratuitos (saúde, educação etc.) e sustento de quem não pode trabalhar. É definida pelo plano de produção votado.
+- **FAA (Fator de Ajuste Ambiental):** multiplicador de preço decidido democraticamente para bens de alto impacto ecológico. **Normalizado** (ver abaixo).
+- **mᵢ (multiplicador salarial):** por padrão **1** para todos. Prêmios só para **penosidade** e **escassez temporária** de uma função, decididos democraticamente e revisáveis. Não há prêmio por qualificação: a formação é custeada integralmente pela sociedade (estudo remunerado), então não há custo privado de educação a compensar.
 
-**Preço social (em VT)**  
-Preço = FAA × (Horas diretas + Horas dos insumos)  
-Calculado antecipadamente pelo SACCI a partir da LM e de coeficientes ambientais.
+**Salários (em VT)**
+- Salário bruto do trabalhador i: mᵢ × hᵢ (1 VT por hora, salvo prêmio).
+- Renda líquida (VT efetivamente emitidos): (1 − d) × mᵢ × hᵢ.
+- A dedução d é única e proporcional, visível na "folha" de cada trabalhador; é o equivalente ao "após as deduções" de Marx.
 
-**Salários (em VT)**  
-Distribuição proporcional às horas efetivas com multiplicadores (qualificação, penosidade, escassez).
+**Preço social (em VT)**
+- **Preço de plano (valor-trabalho):** P*ⱼ = FAAⱼ × Hⱼ, calculado antecipadamente pelo SACCI a partir da LM.
+- **Normalização do FAA:** Σⱼ FAAⱼ·Hⱼ·Qⱼ = Σⱼ Hⱼ·Qⱼ, onde Qⱼ é a quantidade planejada do bem j. O FAA **reordena preços relativos** (bens sujos ficam mais caros, bens limpos mais baratos), mas **não cria nem destrói poder de compra** no agregado.
+- **Preço de equilíbrio (Cockshott–Cottrell):** o preço efetivo Pⱼ é ajustado pelo SACCI para que o estoque do bem j gire no ritmo planejado (oferta = demanda no período). A razão **Pⱼ / P*ⱼ** é o sinal para o próximo plano: > 1, a população valoriza o bem acima do trabalho que ele custa → expandir; < 1 → contrair. O sinal é usado para **replanejar a produção**, nunca para remunerar a unidade.
 
-**Identidade contábil**  
-Soma dos preços (VT) = soma dos salários (VT).
+**Equação de fechamento (substitui a identidade anterior)**
+
+(1 − d) · Σᵢ mᵢ·hᵢ  =  Σⱼ FAAⱼ·Hⱼ·Qⱼ  =  valor-trabalho dos bens de consumo do plano
+
+- Lado esquerdo: VT emitidos no período. Lado direito: VT necessários para retirar tudo o que o plano destina ao consumo individual.
+- Com FAA normalizado, o lado direito é simplesmente Σⱼ Hⱼ·Qⱼ.
+- **Só dois dos três parâmetros são livres.** Dados os mᵢ e o vetor Qⱼ do plano votado, o SACCI **calcula d**. Alternativamente, se a população vota d (a "taxa de acumulação social"), o SACCI ajusta Qⱼ — e portanto a fração da capacidade destinada a investimento e serviços gratuitos. O plano submetido a voto deve mostrar as duas leituras.
+- Consistência com Gotha: d · Σᵢ mᵢ·hᵢ = horas destinadas aos fundos comuns.
+- Se Σⱼ Pⱼ·Qⱼ (preços de equilíbrio) diferir de Σⱼ P*ⱼ·Qⱼ (preços de plano) no curto prazo, a diferença é absorvida pelo fundo de reserva e corrigida no replanejamento seguinte; a convergência é garantida pela regra Pⱼ/P*ⱼ.
+
+**Consequências operacionais**
+- VT expirados sem uso deixam de ser um "imposto invisível": se a emissão fecha com o plano, a expiração só captura consumo voluntariamente não realizado.
+- Bens encalhados deixam de ser lidos pelo SACCI como queda de demanda quando, na verdade, faltava poder de compra: com a equação fechada, um estoque que não gira é sinal genuíno de preferência.
 
 **Separação produção–consumo**
-- No consumo, os VT do indivíduo são destruídos.  
-- A cooperativa não recebe VT; insumos e ordens fluem por despacho técnico do SACCI com base na LM e nas metas.  
-- Mantém-se “produção para uso”, sem mercado nem lei do valor.
+- No consumo, os VT do indivíduo são destruídos.
+- A cooperativa não recebe VT; insumos e ordens fluem por despacho técnico do SACCI com base na LM e nas metas.
+- Mantém-se "produção para uso", sem mercado nem lei do valor: o ajuste de preços dos bens de consumo é um instrumento de leitura de preferências, não de alocação de meios de produção, que continua feita in natura pelo plano.
