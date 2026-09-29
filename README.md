@@ -1,57 +1,81 @@
-# Ciber Com
-## Proposta Geral
-O projeto visa solucionar 2 problemas principais:
+# CiberCom
 
-- A irracionalidade produtiva: O principal intuito do CiberCom é criar uma sociedade onde a alocação de recursos seja feita de forma mais racional possível, o planejamento da produção e da distribuição de produtos e 
-serviços opere pela racionalidade humana, e não pela arbitrariedade de um mercado. 
+Modelo de planejamento econômico cibernético sob democracia direta digital, cálculo em unidades físicas e em tempo de trabalho, e distribuição por vales-trabalho.
 
-- A democratização completa do poder de decisão: O CiberCom visa criar uma sociedade onde o poder de decisão seja democrático, ou seja, onde a vontade do povo seja a única fonte de poder. Plajamos alcançar isso 
-através de uma democracia direta digital e a formação de conselhos democráticos.
+## Proposta geral
 
+O projeto responde a dois problemas:
 
-## Construção Coletiva
-O CiberCom é um projeto de código aberto, e a sua construção ocorre de forma coletiva, onde todos podem contribuir com ideias e participação. Não estou oferecendo um projeto pronto, mas sim um projeto em constante evolução coletiva, onde a participação é feita de forma voluntária e democrática. 
-O CiberCom não é uma utopia, é um projeto que surge das condições atuais da humanidade, da tecnologia e de formas organizacionais que de uma  forma ou de outra já existem, além de uma analise crítica sobre as tentativas do século XX de construir sociedades alternativas ao capitalismo. O Projeto é uma proposta de como as coisas poderiam ser feitas de forma mais racional e democrática, e como a tecnologia pode ser utilizada para isso, mas de forma nenhuma é uma proposta acabada, e muito menos uma solução definitiva para todos os problemas. Será necessário construir o projeto, testar, e evoluir constantemente.
+- **A irracionalidade produtiva.** No capitalismo, a alocação da capacidade produtiva é corrigida *ex-post* pelo sinal de preço e orientada à valorização do capital, não à satisfação de necessidades. O CiberCom propõe que o planejamento da produção e da distribuição opere pela racionalidade humana — metas votadas, cálculo *in natura* e correção em tempo real — e não pela arbitrariedade de um mercado.
+- **A democratização completa do poder de decisão.** A vontade da população é a única fonte de poder. Isso é realizado por uma democracia direta digital organizada em esferas de decisão, por corpos técnico e executivo com mandato limitado e revogável, e por conselhos democráticos em cada unidade produtiva.
 
-## Democracia direta digital
-Defendemos uma democracia direta digital, onde a população pode tomar decisões sobre o seu futuro de forma direta, através de votos online. Dividimos a população em pequenos grupos, chamados de "células", que são responsáveis por tomar decisões sobre o seu entorno, é fácil visualizar como isso funciona em nível micro em um bairro ou em uma empresa. Conselhos podem ser formados por células, e esses conselhos tomam decisões sobre o seu entorno de forma democrática, discutindo as propostas e votando por elas.
+O CiberCom não é uma utopia nem um projeto acabado. É um projeto de código aberto, em evolução coletiva, que parte das condições tecnológicas e organizacionais existentes e de uma análise crítica das tentativas do século XX. A documentação abaixo especifica o modelo com o detalhe necessário para que ele possa ser criticado, simulado e testado.
 
-### Mas como isso funciona em nível macro?
-A proposta CiberCom propõe solucionar o problema das decisões politicas e economicas através de um processo de voto direto, dividido por esferas de decisão. Decisões que impactam uma esfera de decisão,
-são tomadas diretamente pelos cidadãos dessa esfera, e decisões que impactam esferas maiores são tomadas por todas as pessoas que a compõem.
-#### Abaixo temos um exemplo de como isso poderia funcionar:
-```
-Célula A: 1000 habitantes
-Célula B: 1000 habitantes
-Célula C: 1000 habitantes
-Célula D: 1000 habitantes
-Célula E: 1000 habitantes
-```
-Todas essas células compõem uma esfera de decisão por si mesmas, mas também, compõem uma esfera de decisão maior, que é a esfera de decisão do município. Uma decisão que impacta a célula A, é tomada diretamente pelos cidadãos da célula A, e uma decisão que impacta a esfera de decisão do município, é tomada por todos os cidadãos do município ou seja (por todos os cidadãos de A, B, C, D e E).
-Essa proposta era impossível de ser feita no século XX, mas com a tecnologia atual, é possível criar um sistema onde isso é feito de forma democrática, transparente e sem que isso tome muito tempo das pessoas, afinal seria impraticavel para cada decisão a ser tomada a população ter que se reunir em um local e votar, mas com a tecnologia atual, o processo pode ser resumido a uma notificação no seu celular, ou uma mensagem
-no seu computador e um click no botão de votar.
+## Estrutura do modelo
 
+O modelo tem dois níveis interligados e uma camada de verificação.
 
-## O Fim da democracia representativa?
-### Sim e não. 
-- Sim, porque não há necessidade de representantes com poder legislativo, pois a população pode tomar decisões sobre o seu futuro de forma direta, através de votos online e conselhos democráticos. As decisões são tomadas pelo povo, e não por representantes eleitos.
-- Não, pois ainda são necessarios representantes em duas esferas:
-### Corpo deliberativo tecnico
-- Quando se vota em algo, se vota em opções, deliberar diretamente sobre o que vai ser votado é impraticavel, tomaria muito tempo e correriamos o risco tanto de ter que escolher entre opções ruins, quanto a de cairmos em imobilismo, pois poderia não haver consenso sobre o que votar.
-- É necessario portanto um corpo deliberativo tecnico, que seja capaz de tomar decisões sobre o que vai ser votado, e que seja capaz de elaborar propostas para o voto.
-- Esse corpo deve ser escolhido de alguma forma (seja por eleição ou outro meio) e deve ser composto por pessoas que sejam capazes de tomar decisões e elaborar propostas. E deve representar diversas esferas da sociedade, pense por exemplo em como temos ja na nossa sociedade diversos conselhos profissionais, como conselho de saúde, de educação, de trânsito, etc. Esses representantes devem ser eleitos pelo povo, através desses Conselhos, e devem compor o corpo deliberativo tecnico (pense em como funcionam os ministérios de cada governo por exemplo).
-- O poder deliberativo de um membro eleito deve ser limitado, e deve ser possivel para o povo demitir um membro do corpo deliberativo tecnico, e ele deve ser obrigado a responder pelo seu trabalho. 
-        
-### Executivo
-- Decisões tomadas pela democracia direta digital devem ser executadas por um corpo executivo, que deve ser escolhido de alguma por eleição e deve ser composto por pessoas que sejam capazes  de executar as decisões tomadas pelo corpo deliberativo tecnico.
-- O poder executivo deve ser limitado, e deve ser possivel para o povo demitir um membro do corpo executivo, e ele deve ser obrigado a responder pelo seu trabalho.
+**Nível macro — o quê produzir.** Decidido pela população, por voto direto, sob a forma de planos de produção com horizonte definido, elaborados por um Corpo Deliberativo Técnico revogável e validados sob a regra do quórum mínimo. O dinheiro é substituído por vales-trabalho pessoais, intransferíveis, não acumuláveis e destruídos no consumo.
 
-## O que exatamente está sujeito a votação?
-Todas as decisões legislativas e macroeconomicas devem ser tomadas pela democracia direta digital, e as decisões microeconomicas devem ser tomadas pelos conselhos democráticos. Metas de produção, alocação de recursos precisam ser definidas em planos de longo, médio e curto prazo. Primeiro deliberados entre os multiplos corpos deliberativos tecnicos, e depois votados pela população. Quanto recurso, tanto em termos de insumos quanto mão de obra, precisam ser alocados de acordo com planos pré estabelecidos pelo corpo deliberativo, sujeito a votação final pela população ([com sistemas de recall em caso de quorum minimo não atingido](<Quorum Minimo.md>)) e executados pelo corpo executivo.
+**Nível micro — como produzir.** Coordenado pelo Sistema Automatizado de Coleta e Computação de Informação (SACCI), que mantém a matriz insumo-produto da economia em tempo real, decompõe o plano votado em ordens de suprimento e produção, recomputa o plano diante de choques e devolve informação a todos os nós. As decisões operacionais são dos conselhos de trabalhadores de cada unidade; nenhuma alteração de intensidade ou tempo de trabalho ocorre sem o seu consentimento.
 
-### Planos de produção
-O planejamento geral ex-ante que está sujeito a votação é o plano de produção, que define as metas de produção, alocação de recursos e a distribuição de produtos e serviços. Esse plano é deliberado entre os corpos deliberativos tecnicos e depois votado pela população, mas representa planos de alocação mais gerais com prazo estipulado definido (por exemplo 1 ano). Define metas gerais de produção, e deve ser decomposto em planos mais específicos para cada setor da economia, representa por exemplo quais porcentagens de recursos serão alocados para cada setor da economia, e quais serão as metas mais gerais de produção de cada setor. Esses planos gerais precisam ser revistos constantemente pelos dados coletados em tempo real sobre a produção e a demanda, e devem ser ajustados para se adequar aos dados coletados pelo [Sistema Automatizado de Coleta e Computação de Informação](SACCI.md). Essa verificação e ajuste deve ser feito em tempo real, e deve ser feito de forma transparente, desponibilizando os dados para todos os cidadãos. Esse sistema de verificação e ajuste constante é essencial para que o plano de produção seja corrigido constantemente para evitar problemas de superprodução ou de falta de produção, corrigindo o curso da economia de forma racional para evitar problemas de alocação de recursos que causam escassez ou desperdicio de recursos.
+**Camada de verificação.** O SACCI verifica por construção fluxos, consumo e coeficientes; regras explícitas tratam da barganha sobre metas, dos produtores únicos, da governança e da privacidade do próprio sistema, e um programa de simulação e experimentos define o que contaria como refutação do modelo.
 
+## Documentos
 
+| Documento | Conteúdo |
+|---|---|
+| [Democracia Direta Digital](Democracia%20Direta%20Digital.md) | Células, esferas de decisão, atribuição de esferas, corpos técnico e executivo, recall, enquadramento das opções, carga decisória (lei de parâmetros, decisão por exceção, delegação por tema, minipúblicos), segurança do voto |
+| [Quórum Mínimo](Quorum%20Minimo.md) | Definição formal do quórum com preferência ordenada, rodadas, dissolução e validação provisória |
+| [Planos de Produção](Planos%20de%20Producao.md) | Horizontes, estrutura e decomposição do plano, custo de plano e de equilíbrio, FAA, taxa de dedução d, equação de fechamento, fundo de reserva, replanejamento |
+| [Tokens de Valor](tokens-valor.md) | Vales-trabalho: propriedades, remuneração, renda social básica, poupança finalista, cuidado por titularidade, mercado informal |
+| [SACCI](SACCI.md) | Arquitetura, coleta, computação, distribuição, plano vinculante e decisão local, resposta a choques |
+| [Verificação e Incentivos](Verificacao%20e%20Incentivos.md) | O que o SACCI verifica por construção, o que exige regra, barganha sobre metas, regime de produtores únicos, serviços e qualidade, proteção ao denunciante |
+| [Governança e Privacidade do SACCI](Governanca%20e%20Privacidade.md) | Código público, função objetivo votada, implementações independentes, explicabilidade e contestação de ordens, corpo técnico do SACCI, duas contabilidades, chaves separadas |
+| [Inovação e Entrada](Inovacao%20e%20Entrada.md) | Orçamento de experimentação, verificação automática, pré-compromisso em vales, esteira de entrada por portões, saída automática, fila por sorteio ponderado, prêmio ao inovador |
+| [Cooperativas](Cooperativas.md) | Unidades autogeridas com direito de uso, mandato, integração ao SACCI, resumo técnico de custos, renda e fechamento contábil |
+| [Comércio Exterior](Comercio%20Exterior.md) | Monopólio social, custo do importado em horas, moeda estrangeira fora da circulação interna, controles de capital, comércio em tempo de trabalho entre economias afins, limites |
+| [Programa de Verificação](Programa%20de%20Verificacao.md) | Simulação com matrizes de insumo-produto reais, simulação de agentes, experimentos em escala reduzida, critérios de refutação |
+| [Algoritmos](Algoritmos.md) | Definições operacionais: balanço material (Gauss–Seidel esparso), horas embutidas (Jacobi), programação linear e valores duais, normalização do FAA, custo de equilíbrio, fechamento e d, apuração de votações, sorteios auditáveis, nós críticos, detecção de anomalias, atribuição de esferas, teto de atenção |
+| [Parâmetros](Parametros.md) | Tabela de todos os parâmetros votados, símbolos, quem os fixa e valores de referência para simulação |
+| [SACCI-Core](SACCI-Core.md) | Especificação do planejamento central: componentes, modelo de dados, APIs, ciclos de execução, requisitos, implementações independentes, simulador |
+| [Distribuição](Distribuicao.md) | Pontos de distribuição: retirada com VT, entrega dos Mínimos, serviços, devoluções, poupança, pré-compromisso, agregação e privacidade |
+| [VoteSystem](VoteSystem.md) | Especificação do sistema de votação: propriedades, papéis, modelo de dados, fluxos (plano, decisão por exceção, delegação, recall, veto), credenciais, voto presencial |
+| [NodeClient](NodeClient.md) | Especificação técnica do software do nó produtivo (Electron + Angular, SQLite, sincronização com o SACCI-Core, simulador embarcado) |
+| [Next Steps](Next_steps.md) | Roteiro de desenvolvimento: NodeClient, SACCI-Core, integração e simulação em rede, caminho para produção |
+| [Glossário](Glossario.md) | Definições de todos os termos do modelo |
+| [Mínimos Cibercomunistas](M%C3%ADnimos%20Cibercomunistas/introducao.md) | Piso material universal garantido in natura (alimentação, moradia, saúde, educação, acesso digital, cultura, mobilidade): bases jurídicas, métricas e padrões por domínio; entra no plano como restrição de nível de atendimento mínimo |
 
+## Terminologia
 
+O projeto evita as palavras "preço" e "salário" para o que ocorre dentro do modelo, porque não há mercado nem venda de força de trabalho: fala-se em **custo social** (custo de plano P*, custo de equilíbrio P) dos bens de consumo, e em **renda** em vales-trabalho. "Preço" e "salário" aparecem apenas quando se descreve o capitalismo ou o comércio exterior.
+
+## Notação
+
+| Símbolo | Significado |
+|---|---|
+| hᵢ | horas trabalhadas pelo trabalhador i no período |
+| mᵢ | multiplicador de renda do trabalhador i (1 por padrão; prêmios por penosidade, escassez, criticidade) |
+| d | taxa de dedução social (fração das horas destinada aos fundos comuns) |
+| B | renda social básica por cidadão, em VT |
+| N | número de cidadãos |
+| S, ΔS | saldo de poupança finalista; sua variação líquida no período |
+| Hⱼ | horas embutidas (diretas + indiretas) na unidade do bem j |
+| Qⱼ | quantidade planejada do bem j para consumo individual |
+| FAAⱼ | Fator de Ajuste Ambiental do bem j (normalizado) |
+| P*ⱼ | custo de plano do bem j = FAAⱼ · Hⱼ |
+| Pⱼ | custo de equilíbrio do bem j |
+| A | matriz de coeficientes técnicos (insumo-produto) |
+| LM | Lista de Materiais de um item |
+
+## Referências teóricas
+
+Marx, *Crítica do Programa de Gotha* e *O Capital*, Livro II, cap. 18; Cockshott e Cottrell, *Towards a New Socialism* (1993), "Calculation, Complexity and Planning" (1993), "Information and Economics: A Critique of Hayek" (1997), "Economic planning, computers and labor values" (1999); Cockshott, "Mises, Kantorovich and Economic Computation" (2007) e "Big Data and Super-Computers" (2017); Kantorovich (1939); Leontief (1941); Kornai, *Economics of Shortage* (1980); Dapprich (2023); Saros (2014). A pasta `fontes teoricas` do projeto reúne os textos.
+
+## Implementação
+
+O software é desenvolvido neste repositório: `node-client/` ([NodeClient](NodeClient.md)), `vote-system/` ([VoteSystem](VoteSystem.md)), `sacci-core/` ([SACCI-Core](SACCI-Core.md)) e o ponto de distribuição ([Distribuição](Distribuicao.md)). Os algoritmos que toda implementação deve reproduzir estão em [Algoritmos](Algoritmos.md); o roteiro em [Next Steps](Next_steps.md). Toda implementação deve satisfazer os requisitos de [Governança e Privacidade](Governanca%20e%20Privacidade.md): dados individuais permanecem no nó e no dispositivo do titular; o sistema central recebe totais com compromissos criptográficos.
+
+## Licença
+
+Ver [LICENSE](LICENSE).

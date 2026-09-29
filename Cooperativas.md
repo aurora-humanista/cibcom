@@ -5,6 +5,11 @@ Cooperativa é unidade produtiva com **direito de uso** sobre meios de produçã
 
 ---
 
+## Documentos relacionados
+[SACCI](SACCI.md) · [Planos de Produção](Planos%20de%20Producao.md) · [Tokens de Valor](tokens-valor.md) · [Verificação e Incentivos](Verificacao%20e%20Incentivos.md) · [Inovação e Entrada](Inovacao%20e%20Entrada.md) (entrada de novas cooperativas pela esteira de portões)
+
+---
+
 ## Mandato funcional
 1. **Capilaridade e variedade.** Atender demandas de proximidade e pequena escala (padaria de bairro, reparos, costura, cuidados padronizáveis), garantindo diversidade e tempos de resposta curtos.  
 2. **Complementaridade ao setor coletivo.** Suprir elos finais e cadeias curtas **sem** substituir infraestruturas estratégicas, insumos críticos ou serviços universais.  
@@ -58,7 +63,9 @@ Cumprimento de metas e janelas; respeito aos limites físicos; rastreabilidade m
 - **Horas embutidas (Hⱼ):** horas diretas + horas indiretas dos insumos (via LM), incluindo a reposição dos meios de produção desgastados.
 - **d (taxa de dedução social):** fração do trabalho total retida para os fundos comuns, conforme Marx (Gotha): ampliação dos meios de produção, fundo de reserva, administração, serviços universais gratuitos (saúde, educação etc.) e sustento de quem não pode trabalhar. É definida pelo plano de produção votado.
 - **FAA (Fator de Ajuste Ambiental):** multiplicador de custo decidido democraticamente para bens de alto impacto ecológico. **Normalizado** (ver abaixo).
-- **mᵢ (multiplicador de renda):** por padrão **1** para todos. Prêmios só para **penosidade** e **escassez temporária** de uma função, decididos democraticamente e revisáveis. Não há prêmio por qualificação: a formação é custeada integralmente pela sociedade (estudo remunerado), então não há custo privado de educação a compensar.
+- **B (renda social básica):** dotação em VT recebida por todo cidadão, trabalhe ou não (crianças via responsáveis; suplementos por avaliação para pessoas idosas ou com deficiência). Fixada pelo plano como fração da renda mediana do trabalho; financiada por d. N = número de cidadãos. Ver [Tokens de Valor](tokens-valor.md).
+- **S (poupança finalista):** saldo de VT com teto (fração da renda anual) e prazo máximo, após o qual expira. ΔS = poupança líquida do período, projetada pelo SACCI a partir dos saldos e vencimentos registrados.
+- **mᵢ (multiplicador de renda):** por padrão **1** para todos. Prêmios tabelados só para **penosidade**, **escassez temporária** de uma função e **criticidade** (nós em regime especial, ver [Verificação e Incentivos](Verificacao%20e%20Incentivos.md)), decididos democraticamente e revisáveis. Não há prêmio por qualificação: a formação é custeada integralmente pela sociedade (estudo remunerado), então não há custo privado de educação a compensar.
 
 **Renda (em VT)**
 - Renda bruta do trabalhador i: mᵢ × hᵢ (1 VT por hora, salvo prêmio).
@@ -68,16 +75,18 @@ Cumprimento de metas e janelas; respeito aos limites físicos; rastreabilidade m
 **Custo social (em VT)**
 - **Custo de plano (valor-trabalho):** P*ⱼ = FAAⱼ × Hⱼ, calculado antecipadamente pelo SACCI a partir da LM.
 - **Normalização do FAA:** Σⱼ FAAⱼ·Hⱼ·Qⱼ = Σⱼ Hⱼ·Qⱼ, onde Qⱼ é a quantidade planejada do bem j. O FAA **reordena custos relativos** (bens sujos ficam mais caros, bens limpos mais baratos), mas **não cria nem destrói poder de compra** no agregado.
-- **Custo de equilíbrio (Cockshott–Cottrell):** o custo efetivo Pⱼ é ajustado pelo SACCI para que o estoque do bem j gire no ritmo planejado (oferta = demanda no período). A razão **Pⱼ / P*ⱼ** é o sinal para o próximo plano: > 1, a população valoriza o bem acima do trabalho que ele custa → expandir; < 1 → contrair. O sinal é usado para **replanejar a produção**, nunca para remunerar a unidade.
+- **Custo de equilíbrio (Cockshott–Cottrell):** o custo efetivo Pⱼ é ajustado pelo SACCI, com ganho e limite de variação tabelados, para que o estoque do bem j gire no ritmo planejado (oferta = demanda no período). A razão **Pⱼ / P*ⱼ** é o sinal para o próximo plano: > 1, a população valoriza o bem acima do trabalho que ele custa → expandir; < 1 → contrair. O sinal é usado para **replanejar a produção**, nunca para remunerar a unidade.
 
 **Equação de fechamento (substitui a identidade anterior)**
 
-(1 − d) · Σᵢ mᵢ·hᵢ  =  Σⱼ FAAⱼ·Hⱼ·Qⱼ  =  valor-trabalho dos bens de consumo do plano
+(1 − d) · Σᵢ mᵢ·hᵢ  +  B·N  −  ΔS  =  Σⱼ FAAⱼ·Hⱼ·Qⱼ  =  valor-trabalho dos bens de consumo do plano
 
-- Lado esquerdo: VT emitidos no período. Lado direito: VT necessários para retirar tudo o que o plano destina ao consumo individual.
+- Lado esquerdo: VT disponíveis para consumo no período — renda do trabalho líquida, mais renda social básica, menos a poupança líquida. Lado direito: VT necessários para retirar tudo o que o plano destina ao consumo individual.
+- B·N é o piso de consumo individual de quem está fora da produção; é a forma operacional do "sustento dos incapazes de trabalhar" de Gotha e é votado, não implícito. Os bens e serviços dos [Mínimos Cibercomunistas](M%C3%ADnimos%20Cibercomunistas/introducao.md) são providos in natura, como consumo coletivo, e não passam por esta equação.
+- ΔS é conhecido com erro pequeno porque todo saldo tem prazo registrado; o erro de projeção é absorvido pelo fundo de reserva.
 - Com FAA normalizado, o lado direito é simplesmente Σⱼ Hⱼ·Qⱼ.
-- **Só dois dos três parâmetros são livres.** Dados os mᵢ e o vetor Qⱼ do plano votado, o SACCI **calcula d**. Alternativamente, se a população vota d (a "taxa de acumulação social"), o SACCI ajusta Qⱼ — e portanto a fração da capacidade destinada a investimento e serviços gratuitos. O plano submetido a voto deve mostrar as duas leituras.
-- Consistência com Gotha: d · Σᵢ mᵢ·hᵢ = horas destinadas aos fundos comuns.
+- **Nem todos os parâmetros são livres.** Dados os mᵢ, B e o vetor Qⱼ do plano votado, o SACCI **calcula d**. Alternativamente, se a população vota d (a "taxa de acumulação social"), o SACCI ajusta Qⱼ ou B. O plano submetido a voto exibe as leituras alternativas; a [lei de parâmetros](Parametros.md) diz qual variável é livre.
+- Consistência com Gotha: d · Σᵢ mᵢ·hᵢ = horas destinadas aos fundos comuns, incluindo B·N, o cuidado por titularidade e os Mínimos.
 - Se Σⱼ Pⱼ·Qⱼ (custos de equilíbrio) diferir de Σⱼ P*ⱼ·Qⱼ (custos de plano) no curto prazo, a diferença é absorvida pelo fundo de reserva e corrigida no replanejamento seguinte; a convergência é garantida pela regra Pⱼ/P*ⱼ.
 
 **Consequências operacionais**
